@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/wl_main_layout" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mainFrame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/toolbar" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" />
+    <View android:id="@id/focus_reticle" android:background="@drawable/ic_focus_reticle" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+    <TextView android:textAppearance="@style/Demo.Watermark.Text" android:gravity="center" android:id="@id/demoText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/toolbar" android:textIsSelectable="false" />
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/toolbar" android:background="@drawable/toolbar_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/toolbar_worldIcon" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/toolbar_world_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/pick_a_language" />
+        <ImageView android:id="@id/toolbar_playPauseIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vid_pause_selector" android:layout_centerInParent="true" android:contentDescription="@string/desc_pause_play" />
+        <ImageView android:id="@id/toolbar_infoIcon" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbar_info_selector" android:layout_toLeftOf="@id/toolbar_dictIcon" android:layout_centerVertical="true" android:contentDescription="@string/desc_info" />
+        <ImageView android:id="@id/toolbar_dictIcon" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbar_book_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/desc_dict" />
+    </RelativeLayout>
+</RelativeLayout>

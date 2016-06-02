@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_text">"Word Lens busca las palabras
+y las traduce,
+
+"<b>¡sin conexión!</b></string>
+    <string name="welcome_2_callout_lang">"Pulse aquí para cambiar
+o comprar idiomas"</string>
+    <string name="welcome_2_bubble_pause">"Pausar
+cámara"</string>
+    <string name="welcome_2_bubble_dict">"Buscar en el
+diccionario"</string>
+    <string name="welcome_text_worksbest">"Word Lens funciona mejor en menús y carteles grandes y bien iluminados.
+Resulta menos efectiva en libros o texto estilizado."</string>
+    <string name="welcome_text_worksbest_1">Word Lens funciona mejor en menús y carteles</string>
+    <string name="welcome_big_well_lit">grandes y bien iluminados.</string>
+    <string name="welcome_text_worksbest_2">"
+Resulta menos efectiva en libros"</string>
+    <string name="welcome_stylized">o texto estilizado.</string>
+    <string name="next">Siguiente</string>
+    <string name="start">¡Comenzar!</string>
+    <string name="demo_explanation">"Como demo, la edición gratuita invierte cualquier palabra.
+
+Los paquetes de idiomas adicionales están disponibles en la tienda integrada."</string>
+    <string name="device_not_supported">"Disculpe, este dispositivo no puede ejecutar Word Lens.
+
+Hemos intentado restringir las compras a dispositivos compatibles únicamente, pero no incluimos el suyo.
+
+Escriba a "<b><u>help@questvisual.com</u></b> para que le reembolsen la compra. Por favor, ingrese el número de pedido de Google Wallet, para que emitamos el reembolso. Ingrese también el modelo de dispositivo Android, para evitar que se repita esto.</string>
+    <string name="unsupported_device_email_text">"Si solicita un reembolso, ingrese el número de pedido de Google Wallet.
+
+Se encontró un dispositivo no compatible ejecutando Word Lens."</string>
+    <string name="exit">Salir</string>
+    <string name="send_email">Enviar email</string>
+    <string name="send_feedback">Enviar comentario</string>
+    <string name="send_love">Enviar amor</string>
+    <string name="send_love_prompt">"¡Nos alegra que le guste Word Lens! Ayúdenos a mejorarlo calificándolo en el Google Play.
+★★★★★"</string>
+    <string name="send_love_yes">Comentar</string>
+    <string name="send_love_no">Ahora no</string>
+    <string name="feedback_email_label_from">De:</string>
+    <string name="feedback_email_label_to">Para:</string>
+    <string name="feedback_rating_label">Calificación:</string>
+    <string name="feedback_comments_label">Comentarios:</string>
+    <string name="feedback_missing_email">¡Gracias por su comentario! Por favor incluya su dirección de e-mail.</string>
+    <string name="feedback_missing_comment">Please include a comment.</string>
+    <string name="send">Enviar</string>
+    <string name="feedback_send_failed">No se pudo enviar su comentario. Por favor, corrija sus datos e inténtelo de nuevo.</string>
+    <string name="desc_pause_play">Reproducir/Pausar</string>
+    <string name="desc_info">Info</string>
+    <string name="desc_dict">Diccionario</string>
+    <string name="languages">Idiomas</string>
+    <string name="more_languages">Más idiomas…</string>
+    <string name="pick_a_language">Seleccionar idioma</string>
+    <string name="orientation_locked">"Orientación
+bloqueada"</string>
+    <string name="orientation_unlocked">"Orientación
+desbloqueada"</string>
+    <string name="align_text_instructions">Alinear texto de izquierda a derecha</string>
+    <string name="text_too_small">Texto demasiado pequeño. Por favor, aumente el zoom o acerque más la cámara.</string>
+    <string name="opening_camera">Abriendo cámara</string>
+    <string name="closing_camera">Cerrando cámara</string>
+    <string name="focusing">Enfocando…</string>
+    <string name="tap_to_focus">Pulsar para focalizar.</string>
+    <string name="choose_language">Elegir idioma</string>
+    <string name="info_label">Información</string>
+    <string name="info_version_label">Versión:</string>
+    <string name="info_text">"Word Lens traduce palabras escritas de un idioma a otro. Apunte la cámara a las palabras para traducirlas. Toque la barra en la parte superior de la pantalla, para eligir un par de idiomas o el modo demo.
+
+Incline levemente el dispositivo hasta que la palabra que este leyendo quede alineada con la parte superior. Pulsando el botón de la esquina inferior izquierda, bloqueará o desbloqueará la rotación de la pantalla.
+
+Para parar o empezar el video, pulse el botón de pausar/reproducir en la parte inferior. En el modo de pausa, puede pulsar una palabra para buscarla en el diccionario. El diccionario muestra palabras similares y definiciones alternativas, en caso que haya un error al leerla o traducirla. Modifique la ortografía si es necesario. Para ver el diccionario, pulse el ícono de libro situado en la esquina derecha inferior de la pantalla principal. Cuando esté en el modo de pausa, mantenga pulsado el botón con forma de ojo en la esquina inferior izquierda de la pantalla, para esconder temporalmente la traducción y ver la vista de cámara sin traducción.
+
+Con los botones de acercar/alejar y la linterna (si estuvieran disponibles en su dispositivo), podrá mejorar la calidad de la traducción. El zoom ayuda a leer palabras pequeñas de cerca o cuando la cámara no enfoca bien. En situaciones con poca luz, use el botón de linterna para encenderla o apagarla."</string>
+    <string name="dict_label">Traducción</string>
+    <string name="find_a_word">Buscar palabra</string>
+    <string name="no_words_found">No se encontraron palabras.</string>
+    <string name="store_category_installed">Instalado</string>
+    <string name="store_category_available">A la venta</string>
+    <string name="store_purchase_note">Comprar desde Google Play</string>
+    <string name="store_is_disabled">La tienda está desactivada</string>
+    <string name="store_empty">Tienda vacía</string>
+    <string name="store_empty_detail">No hay otros idiomas disponibles</string>
+    <string name="store_restore_purchases">Restaurar compras</string>
+    <string name="store_restoring_purchases">Restaurando las compras…</string>
+    <string name="store_already_purchased">Ya se compró</string>
+    <string name="lang_demo_erasewords">Demo: borrar palabras</string>
+    <string name="lang_demo_reversewords">Demo: invertir palabras</string>
+    <string name="hide_translation_help_text">Mantenga pulsado el ícono para ocultar la traducción</string>
+    <string name="share_image_title">Compartir la imagen usando…</string>
+    <string name="translation_hidden">Traducción ocultada</string>
+    <string name="zooming_camera_in">Acercando cámara…</string>
+    <string name="zooming_camera_out">Alejando cámara…</string>
+    <string name="camera_error">Error de cámara. Por favor, inténtelo de nuevo.</string>
+    <string name="cannot_connect_title">No se puede conectar con Google Play</string>
+    <string name="cannot_connect_message">Esta aplicación no se puede conectar con Google Play. Puede que su versión de Google Play esté desactualizada o no se encuentre. Puede seguir usando la aplicación, pero no podrá comprar más idiomas.</string>
+    <string name="billing_not_supported_title">No se pueden realizar compras</string>
+    <string name="billing_not_supported_message">El servicio de facturación integrada no está disponible en su dispositivo. Puede seguir usando esta aplicación pero no podrá comprar más idiomas.</string>
+    <string name="purchase_submitted">Compra enviada…</string>
+    <string name="purchase_cancelled">Compra cancelada.</string>
+    <string name="purchase_failed">La compra falló.</string>
+    <string name="billing_service_unavailable">Servicio de facturación no disponible. Por favor, verifique su conexión de datos e inténtelo de nuevo.</string>
+    <string name="billing_QV_error">¡Disculpe! Un error interno de Word Lens está impidiendo la compra de idiomas. Escríbanos a help@questvisual.com para informarnos de este error.</string>
+    <string name="learn_more">Más detalles</string>
+    <string name="flurry_opt_in">"¿Permite que Word Lens utilice la red para informar sobre errores y estadísticas de uso anónimas?
+
+Esto nos ayudará a reparar errores y mejorar nuestro producto. Gracias."</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Rechazar</string>
+    <string name="camera_orientation_check_prompt"><u>¡Bienvenido!</u>"
+¿Su cámara de video se ve rotada o invertida?"</string>
+    <string name="camera_orientation_ok">Se ve bien</string>
+    <string name="camera_orientation_bad">Se debe rotar</string>
+    <string name="desc_camera_rot_right">Rotar a la derecha</string>
+    <string name="desc_camera_rot_left">Rotar a la izquierda</string>
+    <string name="camera_orientation_adjust_prompt">Use los botones para rotar el video hasta que se vea derecho.</string>
+    <string name="camera_orientation_reset">Restaurar orientación</string>
+    <string name="generating_snapshot">Generando la imagen…</string>
+    <string name="splash_explanation">"Está incluído un paquete de idiomas.
+
+Por favor, seleccione su paquete de idiomas inicial a continuación."</string>
+    <string name="splash_confirmation_prompt"><b>Esta selección se puede realizar una sola vez y no se puede repetir.</b>"
+
+Por favor, confirme el paquete de idiomas que prefiere:
+"</string>
+    <string name="confirm_language_selection">Confirmar selección de idiomas</string>
+    <string name="confirm">Confirmar</string>
+</resources>

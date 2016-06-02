@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang_pack_content_uri">content://com.questvisual.wordlens.demo.LanguagesProvider/langpacks</string>
+    <string name="flurry_key">XD9P2HYGG4CCTKRMUPAM</string>
+    <string name="send_feedback_url">https://services.questvisual.com/feedback/submit/?</string>
+    <string name="promo_url_redeem">https://services.questvisual.com/promo/android/redeem/?</string>
+    <string name="promo_url_restore">https://services.questvisual.com/promo/android/restore/?</string>
+    <string name="promo_account_type">com.google</string>
+    <string name="redirect_iap_paid_app_package_name">com.questvisual.wordlens</string>
+    <string name="KEY_DEV_DEBUG_DRAW">dev.debugdraw</string>
+    <string name="TITLE_DEV_DEBUG_DRAW">Debug Draw Enabled</string>
+    <string name="KEY_DEV_FORCE_HIGH_RES">dev.forcehighres</string>
+    <string name="TITLE_DEV_FORCE_HIGH_RES">High Resolution Mode</string>
+    <string name="KEY_DEV_PRINT_RAW_NUGGETS">dev.print.nugget.overlay</string>
+    <string name="TITLE_DEV_PRINT_RAW_NUGGETS">Print Raw Characters</string>
+    <string name="KEY_DEV_PRINT_RAW_WORDS">dev.print.word.overlay</string>
+    <string name="TITLE_DEV_PRINT_RAW_WORDS">Print OCR Words</string>
+    <string name="KEY_DEV_SHOW_FPS_STATS">dev.show.fps.stats</string>
+    <string name="TITLE_DEV_SHOW_FPS_STATS">Show FPS/Performance Stats</string>
+    <string name="KEY_DEV_DISABLE_HINTS">dev.disable.hints</string>
+    <string name="TITLE_DEV_DISABLE_HINTS">Disable Hints</string>
+    <string name="KEY_DEV_CAPTURE_BUTTON">dev.enable.capture.button</string>
+    <string name="TITLE_DEV_CAPTURE_BUTTON">Enable Image Capture</string>
+    <string name="empty" />
+    <string name="info_url">http://wordlens.com/</string>
+    <string name="info_feedback_email">help@questvisual.com</string>
+    <string name="info_title">Word Lens</string>
+    <string name="info_byline">"Quest
+Visual"</string>
+    <string name="app_name">Word Lens</string>
+    <string name="smiley">:-)</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="promo_explanation">Please enter your promo code and select a language.</string>
+    <string name="promo_code_label">Promo Code:</string>
+    <string name="promo_code">Promotional Code</string>
+    <string name="promo_code_invalid">Promotional codes are exactly 6 characters. Please recheck your code and try again.</string>
+    <string name="promo_confirm" formatted="false">Redeem code %code% for language pack %langpack%?</string>
+    <string name="promo_redeeming_progress">Redeeming code</string>
+    <string name="promo_code_rejected">Invalid code submitted. Please retry, or contact help@questvisual.com</string>
+    <string name="promo_send_failed">Unable to redeem code. Please check your data connection and try again.</string>
+    <string name="welcome_text">"Word Lens finds words
+and translates them
+
+"<b>no network needed!</b></string>
+    <string name="welcome_2_callout_lang">"Tap here to change
+or buy languages"</string>
+    <string name="welcome_2_bubble_pause">"Pause
+camera"</string>
+    <string name="welcome_2_bubble_dict">"Look up
+words"</string>
+    <string name="welcome_text_worksbest">"Word Lens works best on big, well-lit signs and menus.
+
+Not so well on books or stylized text."</string>
+    <string name="welcome_text_worksbest_1">Word Lens works best on</string>
+    <string name="welcome_big_well_lit">big, well-lit</string>
+    <string name="welcome_text_worksbest_2">"signs and menus.
+
+Not so well on books or"</string>
+    <string name="welcome_stylized">stylized text.</string>
+    <string name="next">Next</string>
+    <string name="start">Start!</string>
+    <string name="demo_explanation">"As a demo, the free edition reverses any words found.
+
+Additional language packs are available via in-app purchase."</string>
+    <string name="device_not_supported">"Sorry, this device is not capable of running Word Lens. We have tried to restrict purchases to compatible devices only, but we missed yours!
+
+Please contact "<b><u>help@questvisual.com</u></b> for a refund. Please include your Google Wallet order number so we can issue a refund, and your Android device model so we can prevent this in the future.</string>
+    <string name="unsupported_device_email_text">"Please include your Google Wallet order number if you are requesting a refund.
+
+Unsupported device encountered running Word Lens."</string>
+    <string name="exit">Exit</string>
+    <string name="send_email">Send E-Mail</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="send_love">Send Love</string>
+    <string name="send_love_prompt">"Glad you like Word Lens!
+Please help us out by rating us on Google Play!
+★★★★★"</string>
+    <string name="send_love_yes">Review</string>
+    <string name="send_love_no">Not Now</string>
+    <string name="feedback_email_label_from">From:</string>
+    <string name="feedback_email_label_to">To:</string>
+    <string name="feedback_rating_label">Rating:</string>
+    <string name="feedback_comments_label">Feedback:</string>
+    <string name="feedback_missing_email">Thank you for your feedback! Please include your e-mail address.</string>
+    <string name="feedback_missing_comment">Please include a comment.</string>
+    <string name="send">Send</string>
+    <string name="feedback_send_failed">Unable to send feedback. Please check your data connection and try again.</string>
+    <string name="desc_pause_play">Play/Pause</string>
+    <string name="desc_info">Info</string>
+    <string name="desc_dict">Dictionary</string>
+    <string name="languages">Languages</string>
+    <string name="more_languages">More languages…</string>
+    <string name="pick_a_language">Pick a Language</string>
+    <string name="orientation_locked">"Orientation
+Locked"</string>
+    <string name="orientation_unlocked">"Orientation
+Unlocked"</string>
+    <string name="align_text_instructions">Align text left to right</string>
+    <string name="text_too_small">Text too small. Please zoom in or move closer.</string>
+    <string name="opening_camera">Opening Camera</string>
+    <string name="closing_camera">Closing Camera</string>
+    <string name="focusing">Focusing…</string>
+    <string name="tap_to_focus">Touch to focus.</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="info_label">Information</string>
+    <string name="info_version_label">Version:</string>
+    <string name="info_text">"Word Lens translates written words from one language to another. Point your camera at the words to translate. Touch the bar at the top of the screen to choose a language pair or demo mode.
+
+Tilt your device so the words that you are reading are aligned the same as the top bar. Screen rotation can be locked/unlocked by pressing the button in the lower left.
+
+Stop and start the video with the pause/play button at the bottom. In the paused mode, you can touch on a word to see the translation list. The translation list will show you similar-looking words along with alternate definitions in case there was an error reading or translating the word. Adjust the word spelling if it helps. You can also see the translation list by clicking the book icon in the main camera screen on the bottom right. While paused, hold down the eye icon in the bottom left of the main screen to temporarily hide the translation overlay, revealing the plain camera view.
+
+Use the zoom and flash light buttons (if they are available on your device) to improve your translation quality. The zoom helps for reading small words up close when the camera has difficulty focusing. In low light conditions, use the flash light button to turn on and off the light."</string>
+    <string name="dict_label">Translation</string>
+    <string name="find_a_word">Find a word</string>
+    <string name="no_words_found">No words found.</string>
+    <string name="store_category_installed">Installed</string>
+    <string name="store_category_available">Available for Purchase</string>
+    <string name="store_purchase_note">Purchase from Google Play</string>
+    <string name="store_purchase_paid_app">Purchase Word Lens from Google Play</string>
+    <string name="store_is_disabled">Store is disabled</string>
+    <string name="store_empty">Store Empty</string>
+    <string name="store_empty_detail">No other languages available</string>
+    <string name="store_restore_purchases">Restore Purchases</string>
+    <string name="store_restoring_purchases">Restoring Purchases…</string>
+    <string name="store_already_purchased">Already Purchased</string>
+    <string name="lang_demo_erasewords">Demo: Erase Words</string>
+    <string name="lang_demo_reversewords">Demo: Reverse Words</string>
+    <string name="hide_translation_help_text">Touch and hold icon to hide translation</string>
+    <string name="share_image_title">Share Image Using…</string>
+    <string name="translation_hidden">Translation Hidden</string>
+    <string name="zooming_camera_in">Zooming Camera…</string>
+    <string name="zooming_camera_out">Zooming Camera…</string>
+    <string name="camera_error">Camera error. Please retry.</string>
+    <string name="cannot_connect_title">"Can't connect to Google Play"</string>
+    <string name="cannot_connect_message">This app cannot connect to Google Play. Your version of Google Play may be out of date or missing. You can continue to use this app but you will not be able to purchase additional languages.</string>
+    <string name="billing_not_supported_title">"Can't make purchases"</string>
+    <string name="billing_not_supported_message">The in-app billing service is not available on your device. You can continue to use this app but you will not be able to purchase additional languages.</string>
+    <string name="purchase_submitted">Purchase submitted…</string>
+    <string name="purchase_cancelled">Purchase cancelled.</string>
+    <string name="purchase_failed">Purchase failed.</string>
+    <string name="billing_service_unavailable">Billing service unavailable. Please check your data connection and try again.</string>
+    <string name="billing_QV_error">Our apologies! Word Lens has an internal error that prevents purchasing languages. Please contact help@questvisual.com with this error.</string>
+    <string name="learn_more">Learn more</string>
+    <string name="flurry_opt_in">"May Word Lens use the network to report errors and anonymous usage statistics?
+
+This will help us fix errors and improve our product. Thank you!"</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="camera_orientation_check_prompt"><u>Welcome!</u>"
+Does your camera video appear rotated or upside down?"</string>
+    <string name="camera_orientation_ok">Looks Good</string>
+    <string name="camera_orientation_bad">Needs Rotation</string>
+    <string name="desc_camera_rot_right">Rotate Right</string>
+    <string name="desc_camera_rot_left">Rotate Left</string>
+    <string name="camera_orientation_adjust_prompt">Use the buttons to rotate the video until it is upright.</string>
+    <string name="camera_orientation_reset">Reset Camera Orientation</string>
+    <string name="generating_snapshot">Generating snapshot…</string>
+    <string name="splash_explanation">"One language pack is included.
+
+Please select your initial language pack below."</string>
+    <string name="splash_confirmation_prompt"><b>This is a one-time selection and cannot be repeated.</b>"
+
+Please confirm your choice of the language pack:
+"</string>
+    <string name="confirm_language_selection">Confirm Language Selection</string>
+    <string name="confirm">Confirm</string>
+</resources>

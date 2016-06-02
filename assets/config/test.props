@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<props>
+
+<!-- test properties -->
+<bool	key="test.bool"		value="true"/>
+<int  	key="test.int"		value="42"/>
+<uint32	key="test.uint32"	value="0xDEADBEEF"/>
+<string	key="test.string"	value="&lt;poop?&gt;"/>
+<float	key="test.float"	value="6.02e23"/>
+
+<array	key="test.array">
+	<bool value="true"/>
+	<string value="Hello!"/>
+</array>
+
+</props>

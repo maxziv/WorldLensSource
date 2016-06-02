@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="send_feedback_product_id">2</integer>
+    <integer name="hide_translation_help_bubble_show_duration_millis">2500</integer>
+    <integer name="rotation_lock_popup_millis">2000</integer>
+    <integer name="WLOCR_MAX_DIM">1024</integer>
+    <integer name="high_res_interval_count_threshold">3</integer>
+</resources>

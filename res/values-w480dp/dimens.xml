@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tutorial_world_xoffset">-19.0dip</dimen>
+    <dimen name="tutorial_world_yoffset">-8.0dip</dimen>
+    <dimen name="tutorial_playpause_xoffset">24.0dip</dimen>
+    <dimen name="tutorial_playpause_yoffset">12.0dip</dimen>
+    <dimen name="tutorial_dict_xoffset">-5.0dip</dimen>
+    <dimen name="tutorial_dict_yoffset">-8.0dip</dimen>
+</resources>

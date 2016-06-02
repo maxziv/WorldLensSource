@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<props>
+
+<!--  App properties XML
+Property format:  <TYPE key=STRING value=STRING/>
+- TYPE values are:  string, int, uint32, float, bool
+- STRING values should be quoted and xml-escaped, e.g. "&lt;hello&gt;"
+- bool values are "true" or "false"
+- uint32 type requires a hex value 0xF00DF00D
+
+Examples:
+<bool	key="app.feature.enabled"	value="true"/>
+<int  	key="app.kittens.count"		value="42"/>
+<uint32	key="ocr.otavio.bits"		value="0xDEADBEEF"/>
+
+Test UTF-8 encoding: 中文
+-->
+
+<!-- DownLoadable Content -->
+<!-- DLC versions supported by this app -->
+<int key="dlc.version.min"		value="3"/>
+<!--<int key="dlc.version.max"		value="3"/>-->
+
+<!-- DLC paths -->
+<!-- as of v1.1 we're using built-in content -->
+<!--
+	<string key="dlc.installPath"		value="${path.docs}/dlc"/>
+	<string key="dlc.paths"			value="${dlc.installPath};${dlc.path.built-in}"/>
+-->
+<string key="dlc.path.built-in"		value="${path.app}/dlc"/>
+<!-- to add additional paths, use semicolon ';'.  paths are searched in order. -->
+<string key="dlc.paths"			value="${dlc.path.built-in}"/>
+
+
+<!-- store -->
+<bool	key="app.store.enabled"	value="true"/>
+<bool	key="app.store.ua.enabled" value="false"/>	<!-- v1.1 -->
+
+<!-- developer stuff -->
+<string	key="dev.path.devProps" value="dev/dev-override.props"/>
+<string	key="dev.path.devUserProps" value="dev/user-override.props"/>
+
+<!-- demo stuff -->
+<string key="demo.path.demoProps" value="demo/demo-override.props"/>
+
+<!-- speeeeeech -->
+<bool	key="app.speech.enabled"	value="false"/>
+
+
+<!-- <array	key="array.test">
+	<string	value="MOOOO"/>
+	<bool	value="true"/>
+</array>
+ -->
+
+<!-- ocr -->
+<bool key="app.motrack.on" value="true"/>
+
+<!-- FPS limiter - set to 0 for unlimited -->
+<int	key="app.maximum.fps"	value="0"/>
+
+<!-- Minimum Text Height - set to 0 to disable height checking -->
+<!-- Otavio suggests 8, Bryan liked 20, some experimenting leads to 16 -->
+<int   key="app.minimum.text.height.px" value="16"/>
+
+<bool 	key="app.draw.font.uppercase" value="true"/>
+
+</props>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/Hint.AlignText" android:gravity="center" android:id="@id/hint_text" android:background="@drawable/hint_brackets_grey_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

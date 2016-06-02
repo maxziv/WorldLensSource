@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="split_action_bar_is_narrow">true</bool>
+    <bool name="do_snap_flash">true</bool>
+    <bool name="do_action_bar_overlay">false</bool>
+    <bool name="use_iap_langpacks">true</bool>
+    <bool name="redirect_iap_to_paid_app">false</bool>
+</resources>

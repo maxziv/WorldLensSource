@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/float_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:gravity="center" android:id="@id/camcheck_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_orientation_adjust_prompt" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <Button android:id="@id/button_rotate_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/desc_camera_rot_left" />
+        <Button android:id="@id/button_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/camera_orientation_ok" android:layout_weight="1.0" />
+        <Button android:id="@id/button_rotate_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/desc_camera_rot_right" />
+    </LinearLayout>
+</LinearLayout>

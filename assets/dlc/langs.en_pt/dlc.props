@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Downloadable Content property XML file -->
+<props>
+<int	key="package.version"	value="3"/>
+
+<array	key="authorizedPackages">
+	<string value="lang.en_pt"/>
+	<string value="lang.pt_en"/>
+</array>
+
+</props>

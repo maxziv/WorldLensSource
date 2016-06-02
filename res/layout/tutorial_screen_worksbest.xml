@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text_center_layout" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/Tutorial.Text.Body" android:gravity="center" android:id="@id/text_worksbest_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_text_worksbest_1" />
+    <TextView android:textAppearance="@style/Tutorial.Text.Body.Big" android:gravity="center" android:id="@id/text_worksbest_big_well_lit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_big_well_lit" />
+    <TextView android:textAppearance="@style/Tutorial.Text.Body" android:gravity="center" android:id="@id/text_worksbest_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_text_worksbest_2" />
+    <TextView android:textAppearance="@style/Tutorial.Text.Body.Stylized" android:id="@id/text_worksbest_stylized" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_stylized" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+</LinearLayout>

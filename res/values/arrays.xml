@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="prefNormalSize">
+        <item>640</item>
+        <item>480</item>
+    </integer-array>
+    <integer-array name="prefZoomedSize">
+        <item>1280</item>
+        <item>720</item>
+    </integer-array>
+</resources>

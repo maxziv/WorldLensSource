@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_text">"Word Lens определяет слова
+и переводит их
+
+"<b>Не требуется соединение с сетью!</b></string>
+    <string name="welcome_2_callout_lang">"Для изменения
+или покупки языков коснитесь здесь"</string>
+    <string name="welcome_2_bubble_pause">"Пауза
+камеры"</string>
+    <string name="welcome_2_bubble_dict">"Поиск
+слов"</string>
+    <string name="welcome_text_worksbest">"Лучше всего Word Lens работает с большими хорошо освещенными указателями и меню.
+
+При работе с книгами или стилизованным текстом качество работы ухудшается."</string>
+    <string name="welcome_text_worksbest_1">Лучше всего Word Lens работает с</string>
+    <string name="welcome_big_well_lit">большими хорошо освещенными</string>
+    <string name="welcome_text_worksbest_2">"указателями и меню.
+
+При работе с книгами или стилизованным текстом качество работы ухудшается."</string>
+    <string name="welcome_stylized" />
+    <string name="next">Далее</string>
+    <string name="start">Старт!</string>
+    <string name="demo_explanation">"Бесплатная версия в деморежиме меняет порядок букв в словах на обратный.
+
+Дополнительные языковые пакеты доступны через встроенную покупку."</string>
+    <string name="device_not_supported">К сожалению, на этом устройстве невозможно запустить Word Lens. Мы попытались ограничить покупки только совместимыми устройствами, но пропустили ваше! Обратитесь по адресу <b><u>help@questvisual.com</u></b> для возврата оплаты. При этом укажите также свой Google ID и модель устройства Android, чтобы можно было предотвратить подобное в будущем.</string>
+    <string name="unsupported_device_email_text">"В случае заявки на возврат оплаты добавьте имя аккаунта Google Checkout.
+
+Обнаружено устройство, не поддерживающее Word Lens."</string>
+    <string name="exit">Выход</string>
+    <string name="send_email">Отправить сообщение</string>
+    <string name="send_feedback">Отправить отзыв</string>
+    <string name="send_love">Отправить благодарность</string>
+    <string name="send_love_prompt">"Рады, что вам нравится Word Lens!
+Помогите нам – оцените программу на Google Play!
+★★★★★"</string>
+    <string name="send_love_yes">Обзор</string>
+    <string name="send_love_no">Позже</string>
+    <string name="feedback_email_label_from">От:</string>
+    <string name="feedback_email_label_to">Кому:</string>
+    <string name="feedback_rating_label">Оценка:</string>
+    <string name="feedback_comments_label">Отзыв:</string>
+    <string name="feedback_missing_email">Спасибо за отзыв! Пожалуйста, укажите также свой адрес электронной почты.</string>
+    <string name="feedback_missing_comment">Пожалуйста, добавьте комментарий.</string>
+    <string name="send">Отправить</string>
+    <string name="feedback_send_failed">Не удается отправить отзыв. Проверьте подключение и повторите попытку.</string>
+    <string name="desc_pause_play">Воспроизведение/пауза</string>
+    <string name="desc_info">Сведения</string>
+    <string name="desc_dict">Словарь</string>
+    <string name="languages">Языки</string>
+    <string name="more_languages">Доп. языки…</string>
+    <string name="pick_a_language">Выбрать язык</string>
+    <string name="orientation_locked">"Ориентация
+заблокирована"</string>
+    <string name="orientation_unlocked">"Ориентация
+разблокирована"</string>
+    <string name="align_text_instructions">Выровнять текст слева направо</string>
+    <string name="text_too_small">Слишком мелкий текст. Увеличьте масштаб или подойдите ближе.</string>
+    <string name="opening_camera">Открытие камеры</string>
+    <string name="closing_camera">Закрытие камеры</string>
+    <string name="focusing">Фокусировка…</string>
+    <string name="tap_to_focus">Коснитесь для фокусировки.</string>
+    <string name="choose_language">Выбрать язык</string>
+    <string name="info_label">Сведения</string>
+    <string name="info_version_label">версия:</string>
+    <string name="info_text">"Word Lens переводит печатные слова на другой язык. Наведите камеру на слова, которые необходимо перевести. Коснитесь панели вверху экрана и выберите языковую пару или режим демонстрации.
+
+Наклоните устройство так, чтобы слова, которые нужно перевести, были на уровне верхней панели. Вращение экрана можно заблокировать или разблокировать, нажав на кнопку внизу слева.
+
+Остановить и запустить видео можно с помощью кнопки «Пауза»/«Пуск» внизу. В режиме паузы можно коснуться слова, чтобы посмотреть список переводов. В списке переводов содержатся похожие слова, а также возможные варианты перевода на случай ошибки при чтении или переводе слова. При необходимости исправьте орфографию слова. Список перевода также появится, если нажать на значок книжки на основном экране камеры, который находится внизу справа. Для того чтобы временно перейти в режим обычной камеры и скрыть перевод, в режиме паузы удерживайте значок глаза внизу слева на главном экране.
+
+Для улучшения качества перевода используйте увеличение и вспышку (если они есть на вашем устройстве). Увеличение помогает приблизить мелкие слова, когда камера не может навести фокус.В условиях плохого освещения используйте кнопку вспышки, чтобы включить или выключить свет."</string>
+    <string name="dict_label">Перевод</string>
+    <string name="find_a_word">Найти слово</string>
+    <string name="no_words_found">Слова не обнаружены.</string>
+    <string name="store_category_installed">Установлено</string>
+    <string name="store_category_available">Предлагается для покупки</string>
+    <string name="store_purchase_note">Купить на Google Play</string>
+    <string name="store_is_disabled">Магазин отключен</string>
+    <string name="store_empty">Магазин пуст</string>
+    <string name="store_empty_detail">Нет других доступных языков</string>
+    <string name="store_restore_purchases">Восстановить покупки</string>
+    <string name="store_restoring_purchases">Восстановление покупок…</string>
+    <string name="store_already_purchased">Уже куплено</string>
+    <string name="lang_demo_erasewords">Демо: стирание слов</string>
+    <string name="lang_demo_reversewords">Демо: слова в обратном порядке</string>
+    <string name="hide_translation_help_text">Чтобы скрыть перевод, нажмите и удерживайте значок</string>
+    <string name="share_image_title">Поделиться изображением с помощью…</string>
+    <string name="translation_hidden">Перевод скрыт</string>
+    <string name="zooming_camera_in">Увеличение масштаба…</string>
+    <string name="zooming_camera_out">Увеличение масштаба…</string>
+    <string name="camera_error">Ошибка камеры. Повторите попытку.</string>
+    <string name="cannot_connect_title">Не удается подключиться к Google Play</string>
+    <string name="cannot_connect_message">Программе не удается подключиться к Google Play. Возможно, ваша версия Google Play устарела или не установлена. Можно продолжать использовать программу, но покупка дополнительных языков невозможна.</string>
+    <string name="billing_not_supported_title">Покупки невозможны</string>
+    <string name="billing_not_supported_message">Встроенные платежи Служба недоступна на вашем устройстве. Можно продолжать использовать программу, но покупка дополнительных языков невозможна.</string>
+    <string name="purchase_submitted">Покупка отправлена…</string>
+    <string name="purchase_cancelled">Покупка отменена.</string>
+    <string name="purchase_failed">Сбой покупки.</string>
+    <string name="billing_service_unavailable">Служба платежей недоступна. Проверьте подключение и повторите попытку.</string>
+    <string name="billing_QV_error">Извините! В Word Lens возникла ошибка, которая препятствует покупке дополнительных языков. Обратитесь по адресу help@questvisual.com с информацией об ошибке.</string>
+    <string name="learn_more">Подробнее</string>
+    <string name="flurry_opt_in">"Word Lens просит разрешения использовать сеть для отправки сообщений об ошибках и анонимной статистики пользования. 
+
+ Это даст нам возможность исправить ошибки и улучшить ваш программный продукт. Спасибо!"</string>
+    <string name="allow">Разрешить</string>
+    <string name="deny">Отказать</string>
+    <string name="camera_orientation_check_prompt"><u>Добро пожаловать!</u>"
+Видео на вашей камере повернуто или перевернуто?"</string>
+    <string name="camera_orientation_ok">"Все
+нормально"</string>
+    <string name="camera_orientation_bad">"Нужно
+повернуть"</string>
+    <string name="desc_camera_rot_right">Повернуть вправо</string>
+    <string name="desc_camera_rot_left">Повернуть влево</string>
+    <string name="camera_orientation_adjust_prompt">Используйте кнопки для поворота видео до вертикального положения.</string>
+    <string name="camera_orientation_reset">Сбросить ориентацию камеры</string>
+    <string name="generating_snapshot">Создание снимка экрана…</string>
+    <string name="splash_explanation">"В комплекте предлагается один языковой пакет.
+
+Выберите ниже первоначальный языковой пакет."</string>
+    <string name="splash_confirmation_prompt"><b>Выбор дается лишь один раз и не может быть изменен впоследствии.</b>"
+
+Подтвердите выбор языкового пакета:
+"</string>
+    <string name="confirm_language_selection">Подтвердите выбор языка</string>
+    <string name="confirm">Подтвердить</string>
+</resources>

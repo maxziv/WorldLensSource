@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<props>
+    
+    <!-- DownLoadable Content -->
+    <!-- DLC versions supported by this app -->
+    <int key="dlc.version.min"		value="3"/>
+    <!--<int key="dlc.version.max"		value="3"/>-->
+    
+    <!-- DLC paths -->
+    <!-- as of v1.1 we're using built-in content -->
+    <!--
+     <string key="dlc.installPath"		value="${path.docs}/dlc"/>
+     <string key="dlc.paths"			value="${dlc.installPath};${dlc.path.built-in}"/>
+     -->
+    <string key="dlc.path.built-in"		value="${path.app}/dlc"/>
+    <!-- to add additional paths, use semicolon ';'.  paths are searched in order. -->
+    <string key="dlc.paths"			value="${dlc.path.built-in}"/>
+
+    <!-- ocr -->
+    <bool key="app.motrack.on" value="true"/>
+    
+    <!-- FPS limiter - set to 0 for unlimited -->
+    <int	key="app.maximum.fps"	value="0"/>
+    
+    <!-- Minimum Text Height - set to 0 to disable height checking -->
+    <!-- Otavio suggests 8, Bryan liked 20, some experimenting leads to 16 -->
+    <int   key="app.minimum.text.height.px" value="16"/>
+    
+    <bool 	key="app.draw.font.uppercase" value="true"/>
+
+<!-- bool dlc.useManifest means dlc system will look for a manifest.props in each
+     DLC dir path.  This props file contains an array of available DLCs in that directory:
+     <array key="dlc.localPackages">
+     	<string value="lang.en_es"/>
+     	<string value="lang.es_en"/>
+     </array>
+ -->
+<bool key="dlc.useManifest"	value="true"/>
+    
+    
+
+<!-- if fontstash is enabled in this build, then
+     use a ttf file as the font source, instead of native fonts -->
+<bool key="app.draw.fontStash.builtInTTF" value="true"/>
+
+</props>

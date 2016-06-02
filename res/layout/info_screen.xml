@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/info_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textAppearance="@style/Info.BylineText" android:gravity="center" android:id="@id/info_by_qv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_byline" android:drawableTop="@drawable/logo_50" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4.0">
+            <TextView android:textAppearance="@style/Info.TitleText" android:gravity="center" android:id="@id/info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_title" />
+            <TextView android:textAppearance="@style/Info.UrlText" android:gravity="center" android:id="@id/info_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_url" android:drawableLeft="@drawable/globe_small" />
+            <TextView android:textAppearance="@style/Info.UrlText" android:gravity="center" android:id="@id/info_mailto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_feedback_email" android:drawableLeft="@drawable/envelope" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/textScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/info_version" android:layout_below="@id/info_header">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/info_text_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/info_text" />
+    </ScrollView>
+    <Button android:id="@id/debug_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smiley" android:layout_toLeftOf="@id/reset_screen_compensation_button" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/reset_screen_compensation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_orientation_reset" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/info_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_version_label" android:layout_above="@id/reset_screen_compensation_button" android:layout_alignParentLeft="true" />
+</RelativeLayout>

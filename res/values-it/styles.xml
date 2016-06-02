@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Tutorial.Text.Body.DemoExplanation" parent="@style/Tutorial.Text.Body">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+</resources>

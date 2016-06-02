@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_world" android:title="@string/pick_a_language" android:showAsAction="always" android:actionLayout="@layout/menu_icon_world" />
+    <item android:id="@id/menu_playpause" android:title="@string/desc_pause_play" android:showAsAction="always" android:actionLayout="@layout/menu_icon_pause" />
+    <item android:icon="@drawable/toolbar_book_selector" android:id="@id/menu_dict" android:title="@string/dict_label" android:showAsAction="ifRoom" android:actionLayout="@layout/menu_icon_dict" />
+    <item android:icon="@drawable/ic_2_action_about" android:id="@id/menu_info" android:title="@string/info_label" android:showAsAction="ifRoom" />
+    <item android:icon="@*android:drawable/ic_menu_send" android:id="@id/menu_feedback" android:title="@string/send_feedback" android:showAsAction="never" />
+    <item android:icon="@*android:drawable/btn_star" android:id="@id/menu_love" android:title="@string/send_love" android:showAsAction="never" />
+</menu>

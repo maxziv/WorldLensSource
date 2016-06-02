@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Tutorial" />
+    <style name="Tutorial.StartButton" parent="@style/Tutorial">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:background">@drawable/ice_button_xml</item>
+    </style>
+    <style name="Tutorial.Text.Bubble" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Tutorial.Text.Header" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="Tutorial.Text.Body" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="Tutorial.Text.Body.DemoExplanation" parent="@style/Tutorial.Text.Body">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Tutorial.Text.Body.Big" parent="@style/Tutorial.Text.Body">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Tutorial.Text.Body.Stylized" parent="@style/Tutorial.Text.Body">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WordLens.Theme" parent="@*android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/WordLens.ActionBar</item>
+        <item name="android:windowActionBarOverlay">@bool/do_action_bar_overlay</item>
+    </style>
+    <style name="WordLens.ActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+    </style>
+</resources>

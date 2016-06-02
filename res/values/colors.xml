@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tutorial_background">#bb000000</color>
+    <color name="ice_press_top">#dd303030</color>
+    <color name="ice_press_bottom">#bb000000</color>
+    <color name="ice_press_border">#aa888888</color>
+    <color name="ice_top">#dd606060</color>
+    <color name="ice_bottom">#bb0a0a0a</color>
+    <color name="ice_border">#aa888888</color>
+    <color name="red_bright">#aaff0000</color>
+    <color name="red_medium">#aadd0000</color>
+    <color name="red_dark">#aabb0000</color>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/Tutorial.Text.Bubble" android:gravity="center_horizontal" android:id="@id/bubble_dict" android:background="@drawable/callout_lighterblue_left_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/welcome_2_bubble_dict" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

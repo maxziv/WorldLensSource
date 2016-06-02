@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: word-lens-translator-22apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '14'
+packageInfo:
+  cur_package: com.questvisual.wordlens
+  orig_package: com.questvisual.wordlens
+compressionType: false

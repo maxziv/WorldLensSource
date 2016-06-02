@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/TITLE_DEV_DEBUG_DRAW" android:key="@string/KEY_DEV_DEBUG_DRAW" android:summary="Requires special build of libwordlens.so" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_FORCE_HIGH_RES" android:key="@string/KEY_DEV_FORCE_HIGH_RES" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_PRINT_RAW_NUGGETS" android:key="@string/KEY_DEV_PRINT_RAW_NUGGETS" android:summary="Unfiltered OCR characters will be overlaid on screen" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_PRINT_RAW_WORDS" android:key="@string/KEY_DEV_PRINT_RAW_WORDS" android:summary="OCR Text will be overlaid on screen" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_SHOW_FPS_STATS" android:key="@string/KEY_DEV_SHOW_FPS_STATS" android:summary="Show FPS and other OCR timings" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_DISABLE_HINTS" android:key="@string/KEY_DEV_DISABLE_HINTS" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/TITLE_DEV_CAPTURE_BUTTON" android:key="@string/KEY_DEV_CAPTURE_BUTTON" android:defaultValue="false" />
+</PreferenceScreen>
